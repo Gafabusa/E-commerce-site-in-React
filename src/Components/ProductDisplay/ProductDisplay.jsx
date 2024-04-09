@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import './ProductDisplay.css'
 import star_icon from '../Assets/star_icon.png';
 import star_dull_icon from '../Assets/star_dull_icon.png';
-import { ShopContext } from "../../Context/ShopContext";
+import { ShopContext } from '../../Context/ShopContext';
 
 const ProductDisplay=(props)=>{
   const {product}=props;
@@ -47,7 +47,7 @@ const ProductDisplay=(props)=>{
     <div>S</div>
     <div>M</div>
     <div>L</div>
-    <div>XL</div>
+    <div>XL</div> 
     <div>XXL</div>
   </div>
 </div>

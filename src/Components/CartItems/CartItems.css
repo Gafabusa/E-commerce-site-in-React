@@ -4,7 +4,7 @@
 .cartitems hr{
   height: 3px;
   background: #e2e2e2;
-  border: 0;
+  border: 0; 
 }
 .cartitems-format-main{
   display: grid;
@@ -21,7 +21,7 @@
   font-weight: 500;
 }
 .carticon-product-icon{
-  height: 62px;
+  height: 130px;
 }
 .cartitems-remove-icon{
   width: 15px;
@@ -91,4 +91,4 @@
   background: black;
   color: white;
   cursor: pointer;
-}
+} 
